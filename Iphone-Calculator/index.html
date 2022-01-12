@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="utility.js"></script>
+</head>
+<body>
+<div id="container">
+    <div class="grid-container">
+        <input class="grid-item grid-item-output" type="text" step="" id="output" placeholder="0" readonly>
+        <button class="grid-item grid-item-grey" onclick="buttonAC()">AC</button>
+        <button class="grid-item grid-item-grey" onclick="buttonplusminus()">&#177;</button>
+        <button class="grid-item grid-item-grey" onclick="buttonpercent()">%</button>
+        <button class="grid-item grid-item-orange" onclick="buttondivide()">÷</button>
+        <button class="grid-item grid-item-silver" value="7" onclick="button7()">7</button>
+        <button class="grid-item grid-item-silver" value="8" onclick="button8()">8</button>
+        <button class="grid-item grid-item-silver" value="9" onclick="button9()">9</button>
+        <button class="grid-item grid-item-orange" onclick="buttonmultiply()">×</button>
+        <button class="grid-item grid-item-silver" value="4" onclick="button4()">4</button>
+        <button class="grid-item grid-item-silver" value="5" onclick="button5()">5</button>
+        <button class="grid-item grid-item-silver" value="6" onclick="button6()">6</button>
+        <button class="grid-item grid-item-orange" onclick="buttonsubtract()">-</button>
+        <button class="grid-item grid-item-silver" onclick="button1()" value="1">1</button>
+        <button class="grid-item grid-item-silver" value="2" onclick="button2()">2</button>
+        <button class="grid-item grid-item-silver" value="3" onclick="button3()">3</button>
+        <button class="grid-item grid-item-orange" onclick="buttonadd()">+</button>
+        <button class="grid-item grid-item17 grid-item-silver" value="0" onclick="button0()">0</button>
+        <button class="grid-item grid-item-silver" onclick="buttondecimal()">.</button>
+        <button class="grid-item grid-item-orange" onclick="calculate()">=</button>
+    </div>
+</div>
+</body>
+</html>
